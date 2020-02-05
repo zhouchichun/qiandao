@@ -61,13 +61,9 @@ $(document).ready(function () {
 	    url: url,
             data:data_back,
 	    success: function (data) {
-		    if (data=="suc"){
                      confirm("保存成功");
-                     window.location.href="/qiandao";
-		    }else{
-		    alert("保存错误，检查后台！");
-	             window.location.href="/qiandao";
-		    }}
+                     window.location.href=data;
+		    }
         });
     });
 

@@ -29,7 +29,9 @@ def main():
 def save():
     with open("qiandao_file","wb")as f:
         pickle.dump(t_global,f)
-    return 'suc'
+    os.system("python3 get_result.py")
+    ret="static/qiandao_"+now
+    return ret
 
 def insert(name,state,ip):
     if now not in t_global:
@@ -38,7 +40,7 @@ def insert(name,state,ip):
     
 def get_names_today():
     if now not in t_global:
-        names=all_names
+        names=load_all_names()
         return names
     else:
         ret=[]
