@@ -9,8 +9,8 @@
 - pip3 install -r requirement.txt
 - 将名单命名为 all_name 放置到根目录下
 - sh start.sh 9300    9300是端口，可以自己设置
-- 前端点击  ‘＝＝＝＝＝＝＝＝’  按钮可以在后端生成  qiandiao_file 序列化文件。
-- python3 get_result.py 的到 每天签到文件。qiandao_20200202
+- 前端点击  ‘＝＝＝＝获取当日结果＝＝＝＝’  可以直接下载当日签到结果。
+
 
 # 特殊说明
-   本项目 前端 基于  flask 项目  todoism 改写。
+   本项目 前端 基于  flask 项目  todoism 改写。https://github.com/greyli/todoism
