@@ -6,9 +6,10 @@
 - 后台一键生成 记录文件，按照日期命名，包括姓名，身体状况，ip
 
 # 环境、配置和运行
-- pip3 install -r requirement.txt
-- 将名单命名为 all_name 放置到根目录下
-- sh start.sh 9300    9300是端口，可以自己设置
+- pip3 install -r requirement.txt 安装环境
+- 将名单命名为 all_name 放置到项目根目录下
+- sh start.sh 9300    
+     其中9300是端口，可以自己设置。访问 ip:9300/qiandao 即可
 - 前端点击  ‘＝＝＝＝获取当日结果＝＝＝＝’  可以直接下载当日签到结果。
 
 
